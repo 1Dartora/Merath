@@ -1,0 +1,89 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(123.jpg);
+    height: 220px;
+    
+}
+#logo{
+    width:150px;
+    height:150px;
+}
+#cadastro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.card {
+    background-color: #00ff1100;
+    padding: 40px;
+    border-radius: 2px;
+    width:680px;
+    height:680px ;
+    backdrop-filter: blur(5px);
+}
+.card-header {
+    padding-bottom: 25px;
+    opacity: 0.8;
+    color: #fff;
+}
+.card-header::after {
+    padding-top: 10%;
+    width: 70px;
+    height: 1px;
+    background-color: #fff;
+    display: block;
+    margin-top: -17px;
+    margin-left: -5px;
+}
+.card-content label {
+    height: 55px;
+    color: #fff;
+    font-size: 20px;
+    opacity: 0.8;
+    padding-top: 5%;
+}
+.card-content-area {
+    display: flex;
+    flex-direction: column;
+    padding:10px 0;
+}
+.card-content-area input {
+    margin-top: 10px;
+    padding:0 5px;
+    background-color: transparent;
+    border:none;
+    border-bottom: 1px solid #e1e1e1;
+    outline: none;
+    color: #fff;
+}
+.card-footer {
+    padding-top: 10%;
+    display: flex;
+    flex-direction: column;
+}
+.card-footer .submit{
+    width: 100%;
+    height: 45px;
+    background-color: #ffffff;
+    border:none;
+    color:#000000;
+    margin: 10px 0;
+}
+.card-footer a {
+    text-align: center;
+    font-size: 15px;
+    opacity: 0.8;
+    color: #ffffffc6;
+    text-decoration: none;
+}
+h1{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    font-size: 35px;
+}
